@@ -1,0 +1,9 @@
+#setting the bumblebee for hp computer
+
+1. Download and install bumblebee bbswitch and nvida driver (version number "Nvidia 417" obtained from nvidia webside) 
+2. Change GRUB_CMDLINE_LINUX in /etc/defautl/grub as following:
+
+Remove 'nomodest' (select)
+Add acpi_osi=! acpi_osi='Windows 2009' (necessary)
+
+Reboot
