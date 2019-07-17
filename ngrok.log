@@ -1,0 +1,11 @@
+t=2019-07-17T17:58:14+0800 lvl=info msg="no configuration paths supplied"
+t=2019-07-17T17:58:14+0800 lvl=info msg="using configuration at default config path" path=/home/pi/.ngrok2/ngrok.yml
+t=2019-07-17T17:58:14+0800 lvl=info msg="open config file" path=/home/pi/.ngrok2/ngrok.yml err=nil
+t=2019-07-17T17:58:14+0800 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2019-07-17T17:58:14+0800 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2019-07-17T17:58:15+0800 lvl=eror msg="failed to auth" obj=tunnels.session err="Your account 'xhrphx' is limited to 1 simultaneous ngrok client session.\nActive ngrok client sessions in region 'ap':\n  - 1O7XDPMtsayZ8lSony4wvHDwAsM (137.189.40.249)\r\n\r\nERR_NGROK_108\r\n"
+t=2019-07-17T17:58:15+0800 lvl=eror msg="failed to reconnect session" obj=csess id=5c00825bb286 err="Your account 'xhrphx' is limited to 1 simultaneous ngrok client session.\nActive ngrok client sessions in region 'ap':\n  - 1O7XDPMtsayZ8lSony4wvHDwAsM (137.189.40.249)\r\n\r\nERR_NGROK_108\r\n"
+t=2019-07-17T17:58:15+0800 lvl=eror msg="session closing" obj=tunnels.session err="Your account 'xhrphx' is limited to 1 simultaneous ngrok client session.\nActive ngrok client sessions in region 'ap':\n  - 1O7XDPMtsayZ8lSony4wvHDwAsM (137.189.40.249)\r\n\r\nERR_NGROK_108\r\n"
+t=2019-07-17T17:58:15+0800 lvl=info msg="received stop signal" obj=app err="Your account 'xhrphx' is limited to 1 simultaneous ngrok client session.\nActive ngrok client sessions in region 'ap':\n  - 1O7XDPMtsayZ8lSony4wvHDwAsM (137.189.40.249)\r\n\r\nERR_NGROK_108\r\n"
+t=2019-07-17T17:58:15+0800 lvl=eror msg="terminating with error" obj=app err="Your account 'xhrphx' is limited to 1 simultaneous ngrok client session.\nActive ngrok client sessions in region 'ap':\n  - 1O7XDPMtsayZ8lSony4wvHDwAsM (137.189.40.249)\r\n\r\nERR_NGROK_108\r\n"
+t=2019-07-17T17:58:15+0800 lvl=crit msg="command failed" err="Your account 'xhrphx' is limited to 1 simultaneous ngrok client session.\nActive ngrok client sessions in region 'ap':\n  - 1O7XDPMtsayZ8lSony4wvHDwAsM (137.189.40.249)\r\n\r\nERR_NGROK_108\r\n"
